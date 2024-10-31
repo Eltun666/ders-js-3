@@ -32,7 +32,7 @@ let obj = [
 ]
 
 
-const a = obj.filter(person => person.age > 18 || person.driving === true);
+const a = obj.filter(person => person.age > 18 && person.driving === true);
 
 console.log(a);
 
